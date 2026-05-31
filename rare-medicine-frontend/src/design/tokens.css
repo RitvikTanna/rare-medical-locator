@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #10b981; /* Emerald */
+  --color-primary-hover: #059669; /* Emerald hover */
+  --color-accent: #0d9488; /* Teal */
+  --color-accent-hover: #0f766e;
+  --color-background: #ffffff;
+  --color-background-dark: #16171d;
+  --color-glass: rgba(255,255,255,0.1);
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}

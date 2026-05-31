@@ -1,0 +1,58 @@
+/* src/components/dashboard/Dashboard.css */
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, hsl(220, 10%, 12%), hsl(220, 10%, 8%));
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.dashboard-nav {
+  width: 220px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  padding: 2rem 1rem;
+  box-shadow: inset -1px 0 0 rgba(255,255,255,0.05);
+}
+
+.dashboard-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dashboard-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.dashboard-nav a:hover {
+  color: hsl(200,80%,55%);
+}
+
+.logout-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.logout-btn:hover {
+  background: hsl(200,80%,55%);
+  border-color: hsl(200,80%,55%);
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
